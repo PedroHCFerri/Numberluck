@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteador de números</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container_conteudo">
+            <div class="infor">
+                <div class="campo_texto">
+                    <h1 class="titulo">Sorteador de números!</h1>
+                    <div class="container_campo">
+                        <label>Quantidade de números:</label>
+                        <input class="container_input"  id="quantidade" type="number" min="1" >
+                    </div>
+                        <div class="container_campo">
+                        <label>Do número:</label>
+                    <input class="container_input" id="de" type="number" min="1">
+                    </div>
+                    <div class="container_campo">
+                        <label>Até o número:</label>
+                        <input class="container_input" id="ate" type="number" min="1">
+                    </div>
+                </div>
+            
+                <div class="container_botoes">
+                    <button onclick="sortear()" class="container_botao" id="btn-sortear" >Sortear</button>
+                    <button onclick="reiniciar()" class="container_botao-desabilitado" id="btn-reiniciar">Reiniciar</button>
+                </div>
+                    <div class="container_texto" id="resultado">
+                        <label class="campo_texto">Números sorteados: nenhum até agora</label>
+                    </div>
+            </div>
+          
+            <img src="./girl2.png" alt="mulher no notbook" class="container_img"/>
+        </div>
+    </div>
+    
+
+
+<script src="app.js" defer></script>
+
+</body>
+</html>
