@@ -38,6 +38,10 @@ body{
 .infor {
     flex: 1;
     padding: 3rem;
+    grid-template-columns:
+    1fr fit-content(50%) 1fr;
+     width:30%;
+    
 }
 h1{
     font-size: 60px;
