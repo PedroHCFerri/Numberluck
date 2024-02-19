@@ -119,4 +119,6 @@ h1{
 }
 .container_texto{
     font-size: 30px;
+    padding: 16px 24px;
+    word-wrap: break-word;
 }
